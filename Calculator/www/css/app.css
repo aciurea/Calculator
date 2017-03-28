@@ -1,0 +1,26 @@
+﻿.wrapper {
+    width: 50%;
+    padding: 25%;
+}
+
+.btnWidth {
+    width: 22%;
+    float: left;
+}
+
+.btnMargin {
+    margin-right: 4%;
+}
+
+.buttons {
+    width: 100%;
+}
+
+.btnGroup { 
+    padding-top: 12% !important;
+}
+
+
+#inCalculator {
+    width: 99%;
+}

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="css/app.css" rel="stylesheet" />
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <p>Calculator</p>
+        <div class="buttons">
+            <input id="inCalculator" type="text" />
+            <section>
+                <button id="CE" class="btnWidth btnMargin">CE</button>
+                <button id="C" class="btnWidth btnMargin">C</button>
+                <button id="delete" class="btnWidth btnMargin"><</button>
+                <button id="devide" class="btnWidth">/</button>
+            </section>
+
+            <section class="btnGroup">
+                <button id="7" class="btnWidth btnMargin">7</button>
+                <button id="8" class="btnWidth btnMargin">8</button>
+                <button id="9" class="btnWidth btnMargin">9</button>
+                <button id="multiply" class="btnWidth">*</button>
+            </section>
+
+            <section class="btnGroup">
+                <button id="4" class="btnWidth btnMargin">4</button>
+                <button id="5" class="btnWidth btnMargin">5</button>
+                <button id="6" class="btnWidth btnMargin">6</button>
+                <button id="minus" class="btnWidth">-</button>
+            </section>
+
+            <section class="btnGroup">
+                <button id="1" class="btnWidth btnMargin">1</button>
+                <button id="2" class="btnWidth btnMargin">2</button>
+                <button id="3" class="btnWidth btnMargin">3</button>
+                <button id="plus" class="btnWidth">+</button>
+            </section>
+
+            <section class="btnGroup">
+                <button id="not" class="btnWidth btnMargin">!</button>
+                <button id="0" class="btnWidth btnMargin">0</button>
+                <button id="dot" class="btnWidth btnMargin">.</button>
+                <button id="equal" class="btnWidth">=</button>
+            </section>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
